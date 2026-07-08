@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --font-sans: "Noto Sans KR Variable";
+  --font-serif: "Noto Serif KR Variable";
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #141612;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #3a5a40;
+  color: #ffffff;
+}
